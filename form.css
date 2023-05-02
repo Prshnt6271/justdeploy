@@ -1,0 +1,188 @@
+input[type="text"]{
+    color: white;
+    background-color:burlywood;
+}
+
+input[type="password"]{
+    background-color: burlywood;
+    color: aliceblue;
+}
+
+a[href^="https"]{ 
+    color: rgb(82, 190, 10);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form label, .form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"], .form input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+body {
+    background-image: url('tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#h1{
+    border-bottom: 4px solid rgb(209, 209, 218);
+    text-align: center;
+    color: white
+    
+}
+h2{
+    color: white
+    
+}
+.hdr{
+    text-align: center;
+    /* background-color: blue; */
+    color: black;
+    /* border: 40px solid cornsilk;
+    padding:40px; */
+    margin-bottom: auto;
+}
+h3{
+     border: solid 20px rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 400px;
+   
+}
+
+/* preference of inline selector > ID selector > CLASS slector > ELEMENT selector */
+h3:hover{
+    color: yellow;
+    /* text-decoration: underline; */
+}
+.pargrph{
+    border: solid 20px cornsilk;
+    color: rgb(242, 10, 10);
+    padding: 20px;
+    margin: 400px;
+    margin-top: auto;
+    bottom: auto;
+     
+}
+nav{
+     border: 2px solid greenyellow  ; 
+}
+nav ul{
+    padding-left: 0px  ;
+    text-align: center;
+}
+nav li{
+      display: inline-block;
+    /* list-style: none;  */
+    /* border-bottom: 1px solid rgb(242, 10, 10);  */
+    margin: 15px 20px;
+    font-size: 30px;
+}
+
+.box2{
+    box-sizing: border-box;
+    width: 800px;
+    background-color: yellowgreen;  
+    border: solid 10px cornsilk;
+    padding: 40px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+
+}
+
+.box1{
+    background-color: yellowgreen;
+    border: solid 10px cornsilk;
+    width: 800px;
+    padding: 40px;
+    margin-left: 280px;
+}
+.box1 h1{
+    color: black;
+    
+}
+ span{
+    color: turquoise;
+    width: 40x;
+    border: 10px solid rgb(242, 10, 10);
+    margin-left: 500px;
+    margin-bottom: 150000px;
+    padding: 20px 20px 20px;
+    font-size: large;
+    
+
+    font-styl
+    e: italic;
+} 
+
+/* plsse use in this order always  */
+ a:link{
+    color: blue;
+
+}
+
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: turquoise;
+}
+
+.container input:focus
+{
+    padding: 15px;
+    outline: none;
+    border:2px solid greenyellow;
+    color: red;
+
+}
+
+/* this will change color of first child of any parent */
+/* h1:first-child{
+    color: red;
+} */
+
+/* this will change the color of the last child of the parent and this is the part of pesudo classs */
+/* p:last-child{
+    color: violet;
+} */
+
+
+
